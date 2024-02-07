@@ -161,37 +161,7 @@ int main(void)
 	  	    	  HAL_Delay(250);
 	  	      }
 
-	  	      /*if (j < 0 || j > 15)
-	  	      {
-	  	    	  if (j < 0)
-	  	    	  {
-	  	    		  j = 15;
-	  	    		  GPIOB->ODR = digit[j];
-	  	    	  }
-	  	    	  else
-	  	    	  {
-	  	    		  j = 0;
-	  	    		  GPIOB->ODR = digit[j];
-	  	    	  }
-	  	      }*/
-
-	  	      if (k < 0 || k > 15)
-	  	      {
-	  	    	  if(k < 0)
-	  	    	  {
-	  	    		  k = 15;
-	  	    		  GPIOA->ODR = digit[k];
-	  	    	  }
-	  	    	  else
-	  	    	  {
-	  	    		  k = 0;
-	  	    		  GPIOA->ODR = digit[k];
-	  	    	  }
-	  	      }
-	  	   }
-
-
-	  // Butonsuz 0-255 arası sürekli sayma.
+	  // Butonsuz 0-255 arası sürekli sayma.  ( Continuous counting from 0 to 255 without buttons. )
 	  /*
 	  for (int i = 0; i < 16;i++)
 	  {
